@@ -1,0 +1,75 @@
+{
+  "dogs": [
+    {
+      "id": 1,
+      "lifespan": 7,
+      "breed": "Bulldog",
+      "title": "Whiskey",
+      "url": "https://simple.wikipedia.org/wiki/Bulldog#/media/File:Bulldog_adult_male.jpg",
+      "description": "The Bulldog is a medium-sized dog breed.",
+      "liked": true
+    },
+    {
+      "id": 2,
+      "lifespan": 12,
+      "breed": "Golden Retriever",
+      "title": "Renny",
+      "url": "https://en.wikipedia.org/wiki/Golden_Retriever#/media/File:Golden_Retriever_Carlos_(10581910556).jpg",
+      "description": "The Golden Retriever is a medium-large gun dog that was bred to retrieve shot waterfowl.",
+      "liked": false
+    },
+    {
+      "id": 3,
+      "lifespan": 10,
+      "breed": "Rottweiler",
+      "title": "Max",
+      "url": "https://en.wikipedia.org/wiki/Rottweiler#/media/File:Rottweiler_standing_facing_left.jpg",
+      "description": "The Rottweiler is a breed of domestic dog, regarded as medium-to-large or large.",
+      "liked": false
+    },
+    {
+      "id": 4,
+      "lifespan": 14,
+      "breed": "Poodle",
+      "title": "Luna",
+      "url": "https://en.wikipedia.org/wiki/Poodle#/media/File:Full_attention_(8067543690).jpg",
+      "description": "The Poodle, called the Pudel in German and the Caniche in French, is a breed of water dog.",
+      "liked": false
+    },
+    {
+      "id": 5,
+      "lifespan": 15,
+      "breed": "Husky",
+      "title": "Cooper",
+      "url": "https://en.wikipedia.org/wiki/Husky#/media/File:Huskiesatrest.jpg",
+      "description": "A husky is a sled dog used in the polar regions.",
+      "liked": false
+    },
+    {
+      "title": "chris",
+      "url": "",
+      "breed": "ddd",
+      "description": "ddd",
+      "lifespan": "33",
+      "id": 6,
+      "liked": false
+    },
+    {
+      "title": "d",
+      "url": "",
+      "breed": "",
+      "description": "d",
+      "lifespan": "",
+      "id": 7,
+      "liked": true
+    },
+    {
+      "title": "zz",
+      "url": "",
+      "breed": "huskuyy",
+      "description": "are good",
+      "lifespan": "9",
+      "id": 8
+    }
+  ]
+}

@@ -46,30 +46,13 @@
       "liked": false
     },
     {
-      "title": "chris",
+      "title": "zz",
       "url": "",
       "breed": "ddd",
       "description": "ddd",
       "lifespan": "33",
       "id": 6,
-      "liked": false
-    },
-    {
-      "title": "d",
-      "url": "",
-      "breed": "",
-      "description": "d",
-      "lifespan": "",
-      "id": 7,
       "liked": true
-    },
-    {
-      "title": "zz",
-      "url": "",
-      "breed": "huskuyy",
-      "description": "are good",
-      "lifespan": "9",
-      "id": 8
     }
   ]
 }

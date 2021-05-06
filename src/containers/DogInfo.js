@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 
-class Dog extends Component {
+class DogInfo extends Component {
     state={
         dog:{
             title:"",
@@ -40,4 +40,4 @@ class Dog extends Component {
     }
 }
 
-export default Dog
+export default DogInfo

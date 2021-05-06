@@ -23,7 +23,7 @@ const Navigation = () => {
                 }}
             >Home</NavLink>
             <NavLink
-                to="/Dogs"
+                to="/Dogslist"
                 exact
                 style={link}
                 activeStyle={{

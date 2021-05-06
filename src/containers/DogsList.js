@@ -3,7 +3,7 @@ import DogForm from './DogForm'
 import NewButton from './NewButton'
 import DogLink from '../components/DogLink'
 
-class Dogs extends Component {
+class DogsList extends Component {
     state = {
         dogs: []
     }
@@ -38,16 +38,20 @@ class Dogs extends Component {
             body: JSON.stringify(dog)
         }
 
-
-        this.setState({
-            dogs: this.state.dogs.map((d) => {
-                if (d.id === dog.id) {
-                    return dog
-                }
-                    return d
+        fetch(`http://localhost:3001/dogs/${dog.id}`,configObject)
+        .then(res=>res.json())
+        .then(() => {
+            this.setState({
+                dogs: this.state.dogs.map((d) => {
+                    if (d.id === dog.id) {
+                        return dog
+                    }
+                        return d
+                })
             })
+        
+
         })
-    
 
     }
 
@@ -68,4 +72,4 @@ class Dogs extends Component {
     
 }
 
-export default Dogs
+export default DogsList

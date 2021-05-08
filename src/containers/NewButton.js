@@ -8,7 +8,6 @@ const NewButton = () => {
             to={'dog/new'}>
             <button>New Dog</button>
             </Link>
-            
         </div>
     )
 }

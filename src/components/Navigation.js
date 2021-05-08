@@ -10,7 +10,6 @@ const link = {
     background:'blue'
 }
 
-
 const Navigation = () => {
     return (
         <div>
@@ -30,7 +29,6 @@ const Navigation = () => {
                     background: 'darkblue'
                 }}
             >My Dogs</NavLink>
-            
         </div>
     )
 }

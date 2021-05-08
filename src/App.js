@@ -20,8 +20,6 @@ class App extends Component {
               <Route exact path="/dogslist" component={DogsList}/>
               <Route exact path="/dog/new" component={DogForm}/>
               <Route path="/dogs/:id" component={DogInfo}/>
-              
-
             </Switch>
           </div>
         </Router>

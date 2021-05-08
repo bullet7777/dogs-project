@@ -6,8 +6,7 @@
       "breed": "Bulldog",
       "title": "Whiskey",
       "url": "https://simple.wikipedia.org/wiki/Bulldog#/media/File:Bulldog_adult_male.jpg",
-      "description": "The Bulldog is a medium-sized dog breed.",
-      "liked": true
+      "description": "The Bulldog is a medium-sized dog breed."
     },
     {
       "id": 2,
@@ -15,8 +14,7 @@
       "breed": "Golden Retriever",
       "title": "Renny",
       "url": "https://en.wikipedia.org/wiki/Golden_Retriever#/media/File:Golden_Retriever_Carlos_(10581910556).jpg",
-      "description": "The Golden Retriever is a medium-large gun dog that was bred to retrieve shot waterfowl.",
-      "liked": false
+      "description": "The Golden Retriever is a medium-large gun dog that was bred to retrieve shot waterfowl."
     },
     {
       "id": 3,
@@ -24,8 +22,7 @@
       "breed": "Rottweiler",
       "title": "Max",
       "url": "https://en.wikipedia.org/wiki/Rottweiler#/media/File:Rottweiler_standing_facing_left.jpg",
-      "description": "The Rottweiler is a breed of domestic dog, regarded as medium-to-large or large.",
-      "liked": false
+      "description": "The Rottweiler is a breed of domestic dog, regarded as medium-to-large or large."
     },
     {
       "id": 4,
@@ -33,8 +30,7 @@
       "breed": "Poodle",
       "title": "Luna",
       "url": "https://en.wikipedia.org/wiki/Poodle#/media/File:Full_attention_(8067543690).jpg",
-      "description": "The Poodle, called the Pudel in German and the Caniche in French, is a breed of water dog.",
-      "liked": false
+      "description": "The Poodle, called the Pudel in German and the Caniche in French, is a breed of water dog."
     },
     {
       "id": 5,
@@ -42,17 +38,15 @@
       "breed": "Husky",
       "title": "Cooper",
       "url": "https://en.wikipedia.org/wiki/Husky#/media/File:Huskiesatrest.jpg",
-      "description": "A husky is a sled dog used in the polar regions.",
-      "liked": false
+      "description": "A husky is a sled dog used in the polar regions."
     },
     {
-      "title": "zz",
+      "title": "de",
       "url": "",
-      "breed": "ddd",
-      "description": "ddd",
-      "lifespan": "33",
-      "id": 6,
-      "liked": true
+      "breed": "e",
+      "description": "f",
+      "lifespan": "fd",
+      "id": 6
     }
   ]
 }

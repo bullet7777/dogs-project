@@ -18,46 +18,9 @@ class DogsList extends Component {
                 })
             })
     }
-    likeHeart = (dog) => {
-        console.log(dog)
-
-
-        if (dog.liked === true) {
-            dog.liked = false
-        } else {
-            dog.liked = true
-        }
-
-
-        let configObject = {
-            method: "PATCH",
-            headers: {
-                "Content-Type": "application/json",
-                "Accept": "application/json"
-            },
-            body: JSON.stringify(dog)
-        }
-
-        fetch(`http://localhost:3001/dogs/${dog.id}`,configObject)
-        .then(res=>res.json())
-        .then(() => {
-            this.setState({
-                dogs: this.state.dogs.map((d) => {
-                    if (d.id === dog.id) {
-                        return dog
-                    }
-                        return d
-                })
-            })
-        
-
-        })
-
-    }
-
 
     render() {
-        const dogs = this.state.dogs.map(d => <DogLink key={d.id} dog={d} onLikes={this.likeHeart} />)
+        const dogs = this.state.dogs.map(d => <DogLink key={d.id} dog={d}/>)
         return (
             <div>
                 <h3>My Dogs</h3>

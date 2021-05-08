@@ -8,11 +8,9 @@ class DogInfo extends Component {
             breed:"",
             description:"",
             lifespan:"",
-            
-
         }
-       
     }
+    
     componentDidMount() {
         fetch(`http://localhost:3001/dogs/${this.props.match.params.id}`)
         .then(res =>res.json())
@@ -25,8 +23,6 @@ class DogInfo extends Component {
         })
     }
  
-
-    
     render() {
         return (
             <div>
